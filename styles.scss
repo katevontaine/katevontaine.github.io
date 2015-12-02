@@ -1,24 +1,40 @@
 body{
-	background: white;
-	color: gray;
+	background-color: black opacity(50%);;
+	color: white opacity(87%);;
+	padding: 0;
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
 }
 p{
-	font-size: 24px;
-	margin: 0 auto;
+	font-size: 32px;
+	// margin: 0 auto;
 	white-space:nowrap;
 	overflow: hidden;
 	width: 30em;
 	animation: type 5s steps(50, end) 1;
+	// text-align: right;
+	padding-top: 10px;
+	padding-left: 10px;
 }
-
 @keyframes type{
 	from{ width: 0;}
 }
-
 span{
 	animation: blink 1s infinite;
 }
-
 @keyframes blink{
 	to{ opacity: .0;}
+}
+.headerPic{
+	// max-height: 400px;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.socialLinks{
+	padding-left: 3px;
+	margin-left: 15px;
+}
+.socialLinks a{
+		max-height: 15px;
 }
