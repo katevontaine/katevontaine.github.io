@@ -36,3 +36,22 @@ span {
 
 .socialLinks a {
   max-height: 15px; }
+
+.socialLinks img {
+  max-height: 35px; }
+
+.links {
+  font-size: 10px;
+  text-decoration: none;
+  color: black opacity(87%);
+  padding-left: 15px;
+  padding-top: 25px;
+  display: inline-block; }
+
+a {
+  text-decoration: none;
+  color: black opacity(87%);
+  list-style: none; }
+
+a:link, a:active, a:visited {
+  color: black; }
