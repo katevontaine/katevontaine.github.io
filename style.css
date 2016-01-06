@@ -118,3 +118,7 @@ p {
 .appTitle {
   padding: 0;
   margin: 0; }
+
+.section {
+  display: block;
+  vertical-align: middle; }
