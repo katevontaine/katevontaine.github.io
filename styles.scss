@@ -1,20 +1,17 @@
 body{
-	background-color: black opacity(50%);;
-	color: white opacity(87%);;
 	padding: 0;
 	margin: 0;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
-p{
-	font-size: 32px;
+.movement{
+	opacity: .8;
+	// font-size: 32px;
 	// margin: 0 auto;
 	white-space:nowrap;
 	overflow: hidden;
 	width: 30em;
 	animation: type 5s steps(50, end) 1;
-	// text-align: right;
-	padding-top: 10px;
-	padding-left: 10px;
+
 }
 @keyframes type{
 	from{ width: 0;}
@@ -35,18 +32,16 @@ span{
 	padding-left: 3px;
 	margin-left: 15px;
 }
-.socialLinks a{
-		max-height: 15px;
-}
+
 .socialLinks img{
 	max-height: 35px;
 }
 .links {
-	font-size: 10px;
+	font-size: 15px;
 	text-decoration: none;
 	color:black opacity(87%);
 	padding-left: 15px;
-	padding-top: 20px;
+	// padding-top: 20px;
 	display: inline-block;
 }
 a{
@@ -56,5 +51,55 @@ a{
 }
 a:link, a:active, a:visited{
 	color:black;
+}
+.center{
+	text-align: center;
+	margin: 0 auto;
+}
+h1{
+	font-size: 85px;
+	font-family: 'Roboto', sans-serif;
+	margin: 0 auto;
+	color:black opacity(87%);
+	font-weight: lighter;
 
+}
+h2{
+	font-size: 65px;
+	font-family: 'Roboto', sans-serif;
+	margin: 0 auto;
+	color:black opacity(87%);
+	font-weight: lighter;
+
+}
+h3{
+	font-size: 35px;
+	font-family: 'Roboto', sans-serif;
+	margin: 0 auto;
+	color:black opacity(87%);
+	font-weight: lighter;
+
+}
+h4{
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+	margin: 0 auto;
+	color:black opacity(87%);
+	font-weight: lighter;
+
+}
+.topCenter{
+	margin: 0 auto;
+	text-align: center;
+	padding-left: 30px;
+	opacity: .8;
+}
+.bold{
+	font-weight: bolder;
+	font-style: italic;
+
+}
+p{
+	font-weight: 200;
+	display: inline-block;
 }
