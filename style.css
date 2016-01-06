@@ -53,28 +53,28 @@ a:link, a:active, a:visited {
   margin: 0 auto; }
 
 h1 {
-  font-size: 85px;
+  font-size: 75px;
   font-family: 'Roboto', sans-serif;
   margin: 0 auto;
   color: black opacity(87%);
   font-weight: lighter; }
 
 h2 {
-  font-size: 65px;
+  font-size: 60px;
   font-family: 'Roboto', sans-serif;
   margin: 0 auto;
   color: black opacity(87%);
   font-weight: lighter; }
 
 h3 {
-  font-size: 35px;
+  font-size: 25px;
   font-family: 'Roboto', sans-serif;
   margin: 0 auto;
   color: black opacity(87%);
   font-weight: lighter; }
 
 h4 {
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Roboto', sans-serif;
   margin: 0 auto;
   color: black opacity(87%);
@@ -93,3 +93,28 @@ h4 {
 p {
   font-weight: 200;
   display: inline-block; }
+
+.descrip {
+  width: 70%;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  display: inline-block; }
+
+.theIcon {
+  display: inline-block; }
+
+.theIcon img {
+  max-height: 40px;
+  margin: 0 0 50% 0;
+  padding: 40px;
+  display: inline-block; }
+
+.text {
+  display: inline-block;
+  padding: 0;
+  margin: 0; }
+
+.appTitle {
+  padding: 0;
+  margin: 0; }
