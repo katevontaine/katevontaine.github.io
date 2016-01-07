@@ -10,6 +10,10 @@ body {
   width: 30em;
   animation: type 5s steps(50, end) 1; }
 
+footer {
+  margin: 0 auto;
+  text-align: center; }
+
 @keyframes type {
   from {
     width: 0; } }
