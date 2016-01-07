@@ -1,3 +1,6 @@
 $(document).ready(function(){
-  $('fullpage').fullpge();
+  $('#fullpage').fullpage({
+    anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage','#sixthPage'],
+    menu: '#menu'
+  });
 });

@@ -3,6 +3,15 @@ body{
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
 }
+
+#menu {
+	display: inline;
+	position: fixed;
+	bottom: 0;
+	center: 0;
+	height: 40px;
+	z-index: 70;
+}
 .movement{
 	opacity: .8;
 	// font-size: 32px;
@@ -140,6 +149,40 @@ p{
 	padding: 0;
 	margin: 0;
 }
+
+.menuItem img{
+	max-height: 25px;
+	display: inline-block;
+}
+
+li{
+	display: inline;
+	text-decoration: none;
+	padding-left:10px;
+
+}
+a{
+	text-decoration: none;
+	display: inline;
+	text-decoration: none;
+	padding-left:10px;
+
+}
+ul{
+	text-decoration: none;
+	align-items: center;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	display: inline;
+	padding-left:10px;
+
+}
+// .myMenu{
+// 	text-align: center;
+// 	margin: 0 auto;
+// }
+
 
 
 
