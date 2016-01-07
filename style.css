@@ -13,7 +13,8 @@ body {
 footer {
   margin: 0 auto;
   text-align: center;
-  vertical-align: bottom; }
+  vertical-align: bottom;
+  padding-top: 15%; }
 
 @keyframes type {
   from {
