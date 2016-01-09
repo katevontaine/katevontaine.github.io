@@ -159,3 +159,54 @@ ul {
   padding: 0;
   display: inline;
   padding-left: 10px; }
+
+.comm, .edu {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  padding-left: 1%; }
+
+.exp {
+  display: block;
+  width: 100%;
+  padding-left: 1%; }
+
+.education, .community {
+  display: none;
+  padding-left: 2%; }
+
+.experience {
+  display: none;
+  display: block;
+  vertical-align: top; }
+
+.company {
+  display: inline-block;
+  width: 32%;
+  vertical-align: top; }
+
+.work ul li {
+  display: block;
+  padding-left: 1%;
+  margin: 0 auto;
+  padding-top: 0; }
+
+.education p, .community p {
+  display: inline-block;
+  padding: 0;
+  margin: 0; }
+
+.education h3, .community h4 {
+  display: inline-block;
+  padding: 0;
+  margin: 0; }
+
+.liHide {
+  display: none;
+  padding-left: 2%;
+  margin: 0; }
+
+.jobtitle {
+  font-style: italic;
+  margin: 0;
+  padding: 0 0 0 0; }
