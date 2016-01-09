@@ -103,11 +103,13 @@ h4 {
 
 .bold {
   font-weight: bolder;
-  font-style: italic; }
+  font-style: italic;
+  opacity: .7; }
 
 p {
   font-weight: 200;
-  display: inline-block; }
+  display: inline-block;
+  opacity: .7; }
 
 .descrip {
   width: 70%;
@@ -165,11 +167,26 @@ ul {
   vertical-align: top;
   width: 45%;
   padding-left: 1%; }
+  .comm img, .edu img {
+    max-height: 10px;
+    margin-bottom: 10px; }
+
+.exp h2, .comm h2, .edu h2 {
+  font-size: 40px;
+  display: inline-block; }
+
+.comm p, .exp p, .edu p {
+  vertical-align: middle;
+  opacity: .5;
+  font-size: 12px; }
 
 .exp {
   display: block;
   width: 100%;
   padding-left: 1%; }
+  .exp img {
+    max-height: 10px;
+    margin-bottom: 10px; }
 
 .education, .community {
   display: none;
@@ -182,13 +199,22 @@ ul {
 
 .company {
   display: inline-block;
-  width: 32%;
-  vertical-align: top; }
+  width: 30%;
+  vertical-align: top;
+  padding-left: 1.5%; }
+
+.work {
+  margin: 0;
+  margin-top: -20px; }
+  .work ul {
+    margin: 0; }
+    .work ul li {
+      margin: 0; }
 
 .work ul li {
   display: block;
   padding-left: 1%;
-  margin: 0 auto;
+  margin: 0;
   padding-top: 0; }
 
 .education p, .community p {
@@ -198,8 +224,7 @@ ul {
 
 .education h3, .community h4 {
   display: inline-block;
-  padding: 0;
-  margin: 0; }
+  margin: 1%; }
 
 .liHide {
   display: none;
@@ -210,3 +235,9 @@ ul {
   font-style: italic;
   margin: 0;
   padding: 0 0 0 0; }
+
+#closeGoco, #closeOoh, #closeEsd {
+  opacity: .5;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 12px; }

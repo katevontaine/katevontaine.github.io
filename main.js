@@ -7,12 +7,20 @@ $(document).ready(function(){
 ///////////MAIN CLICKS ON RESUME
 $('#edu').click(function() {
     $('.education').toggle();
+    $('.community').toggle();
+    $('.experience').toggle();
+
 });
 $('#comm').click(function() {
     $('.community').toggle();
+    $('.experience').toggle();
+    $('.education').toggle();
+
 });
 $('#exp').click(function() {
     $('.experience').toggle();
+    $('.education').toggle();
+    $('.community').toggle();
 });
 
 ////////////////INDIVIDUAL CLICKS ON EXPERIENCE ---- ESD
