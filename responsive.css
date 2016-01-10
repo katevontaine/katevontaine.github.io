@@ -1,10 +1,20 @@
-@media (max-width: 300px -400px) {
+/*@media (max-width: 300px -400px) {
+
+  #menu {
+  	display: block;
+  	position: fixed;
+  	bottom: 0;
+  	center: 0;
+  	height: 40px;
+  	z-index: 70;
+  }
 .topcenter{
 	padding: 0;
 	display: block;
 }
 .headerPic{
 	margin: 3% 0 3% 0;
+  height:30%;
 }
 .links{
 	margin: 0 auto;
@@ -48,4 +58,4 @@
 }
 
 
-}
+}*/
