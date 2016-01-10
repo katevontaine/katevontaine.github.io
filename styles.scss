@@ -7,7 +7,7 @@ body{
 #menu {
 	display: inline;
 	position: fixed;
-	bottom: 0;
+	bottom: .1;
 	center: 0;
 	height: 40px;
 	z-index: 70;
@@ -274,27 +274,64 @@ ul{
 
 @media (max-width:400px) and (min-width:300px){
 
-.theIcon .logo img{
-	margin: 0 0 0 0;
-	padding: 0 0 0 0;
+.theIcon img{
+	margin: 3% 0% 1% 0%;
+	padding-top: 25%;
 }
 .exp h2, .comm h2, .edu h2{
-	font-size: 25px;
+	font-size: 20px;
+}
+.descrip{
+	width: 100%;
+}
+.topCenter{
+	padding-top: 15%;
+}
+.exp{
+	padding-top: 20%;
+}
 }
 
+@media (max-width:899px) and (min-width:401px){
 
-
+.theIcon img{
+	margin: 0% 0% .1% 0%;
+	padding-top: 25%;
+	// padding-left: 1%;
+	// padding-right: 1%;
+	// padding-bottom: 1%;
+}
+.topCenter{
+	padding-top: 10%;
+}
+.exp{
+	padding-top: 12%;
+}
+.exp h2, .comm h2, .edu h2{
+	font-size: 30px;
+}
 }
 
 @media (max-width:1000px) and (min-width:900px){
 
-	.theIcon .logo img{
-		margin: 0 0 0 0;
-		padding: 0 0 0 0;
+	.theIcon img{
+		margin: 0% 0% .1% 0%;
+		padding-top: 25%;
+		// padding-left: 1%;
+		// padding-right: 1%;
+		// padding-bottom: 1%;
+	}
+	.descrip{
+		width: 60%;
 	}
 
-
-
-
-
+	.topCenter{
+		padding-top: 6%;
+	}
+.text{
+	padding-left: 3%;
+}
+.exp{
+	padding-top: 8%;
+}
 }
