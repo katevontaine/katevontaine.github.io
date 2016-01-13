@@ -242,18 +242,16 @@ ul {
   font-weight: 100;
   font-size: 12px; }
 
-@media (max-width: 400px) and (min-width: 300px) {
+@media (max-width: 1100px) and (min-width: 900px) {
   .theIcon img {
-    margin: 3% 0% 1% 0%;
+    margin: 0% 0% .1% 0%;
     padding-top: 25%; }
-  .exp h2, .comm h2, .edu h2 {
-    font-size: 20px; }
-  .descrip {
-    width: 100%; }
   .topCenter {
-    padding-top: 15%; }
+    padding-top: 6%; }
+  .text {
+    padding-left: 3%; }
   .exp {
-    padding-top: 20%; } }
+    padding-top: 8%; } }
 
 @media (max-width: 899px) and (min-width: 401px) {
   .theIcon img {
@@ -261,20 +259,27 @@ ul {
     padding-top: 25%; }
   .topCenter {
     padding-top: 10%; }
+  .text {
+    padding-left: 1%; }
   .exp {
     padding-top: 12%; }
   .exp h2, .comm h2, .edu h2 {
-    font-size: 30px; } }
-
-@media (max-width: 1000px) and (min-width: 900px) {
-  .theIcon img {
-    margin: 0% 0% .1% 0%;
-    padding-top: 25%; }
+    font-size: 30px; }
   .descrip {
-    width: 60%; }
+    font-size: 20px; } }
+
+@media (max-width: 400px) and (min-width: 0px) {
+  .theIcon img {
+    margin: 3% 0% 1% 0%;
+    padding-top: 25%; }
+  .exp h2, .comm h2, .edu h2 {
+    font-size: 20px; }
+  h3 {
+    font-size: 18px; }
+  .descrip {
+    width: 100%;
+    font-size: 18px; }
   .topCenter {
-    padding-top: 6%; }
-  .text {
-    padding-left: 3%; }
+    padding-top: 15%; }
   .exp {
-    padding-top: 8%; } }
+    padding-top: 20%; } }
