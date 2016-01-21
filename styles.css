@@ -252,9 +252,10 @@ section .splitMe {
   padding: 0;
   margin: 0 auto;
   text-align: center; }
-  section .splitMe img {
-    padding-top: 1%;
-    max-height: 400px; }
+
+.splitMe img {
+  padding-top: 1%;
+  max-height: 400px; }
 
 div .meText {
   display: inline-block;
@@ -278,7 +279,28 @@ div .meText {
   .text {
     padding-left: 3%; }
   .exp {
-    padding-top: 8%; } }
+    padding-top: 8%; }
+  div .aboutMe {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center; }
+  section .splitMe {
+    display: inline-block;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center; }
+  .splitMe img {
+    max-height: 300px;
+    padding-top: 12%; }
+  div .meText {
+    display: inline-block;
+    text-align: left;
+    width: 60%;
+    vertical-align: top;
+    font-weight: bold; }
+  .para {
+    width: 95%;
+    font-size: 18px; } }
 
 @media (max-width: 899px) and (min-width: 401px) {
   .theIcon img {
@@ -293,9 +315,34 @@ div .meText {
   .exp h2, .comm h2, .edu h2 {
     font-size: 30px; }
   .descrip {
-    font-size: 20px; } }
+    font-size: 20px; }
+  div .aboutMe {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center; }
+  section .splitMe {
+    display: inline-block;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center; }
+  .splitMe img {
+    max-height: 200px;
+    padding-top: 12%; }
+  div .meText {
+    display: inline-block;
+    text-align: left;
+    width: 80%;
+    vertical-align: top;
+    font-weight: bold; }
+    div .meText h2 {
+      font-size: 42px; }
+    div .meText h3 {
+      font-size: 24px; }
+  .para {
+    width: 100%;
+    font-size: 16px; } }
 
-@media (max-width: 400px) and (min-width: 0px) {
+@media (max-width: 400px) and (min-width: 10px) {
   .theIcon img {
     margin: 3% 0% 1% 0%;
     padding-top: 25%; }
@@ -309,4 +356,29 @@ div .meText {
   .topCenter {
     padding-top: 15%; }
   .exp {
-    padding-top: 20%; } }
+    padding-top: 20%; }
+  div .aboutMe {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center; }
+  section .splitMe {
+    display: inline-block;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center; }
+  .splitMe img {
+    max-height: 150px;
+    padding-top: 30%; }
+  div .meText {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    vertical-align: top;
+    font-weight: bold; }
+    div .meText h2 {
+      font-size: 34px; }
+    div .meText h3 {
+      font-size: 18px; }
+  .para {
+    width: 95%;
+    font-size: 14px; } }
