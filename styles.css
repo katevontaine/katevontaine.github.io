@@ -290,19 +290,19 @@ div .meText {
     margin: 0 auto;
     text-align: center; }
   .splitMe img {
-    max-height: 300px;
-    padding-top: 12%; }
+    max-height: 250px;
+    padding-top: 1%; }
   div .meText {
     display: inline-block;
     text-align: left;
-    width: 60%;
+    width: 90%;
     vertical-align: top;
     font-weight: bold; }
   .para {
     width: 95%;
     font-size: 18px; } }
 
-@media (max-width: 899px) and (min-width: 401px) {
+@media (max-width: 899px) and (min-width: 601px) {
   .theIcon img {
     margin: 0% 0% .1% 0%;
     padding-top: 25%; }
@@ -326,21 +326,59 @@ div .meText {
     margin: 0 auto;
     text-align: center; }
   .splitMe img {
-    max-height: 250px;
-    padding-top: 6%; }
+    max-height: 200px;
+    padding-top: 2%; }
   div .meText {
     display: inline-block;
     text-align: left;
-    width: 80%;
+    width: 90%;
     vertical-align: top;
     font-weight: bold; }
     div .meText h2 {
-      font-size: 42px; }
+      font-size: 34px; }
     div .meText h3 {
-      font-size: 24px; }
-  .para {
+      font-size: 18px; } }
+
+@media (max-width: 600px) and (min-width: 401px) {
+  .theIcon img {
+    margin: 0% 0% .1% 0%;
+    padding-top: 25%; }
+  .topCenter {
+    padding-top: 10%; }
+  .text {
+    padding-left: 1%; }
+  .exp {
+    padding-top: 12%; }
+  .exp h2, .comm h2, .edu h2 {
+    font-size: 30px; }
+  .descrip {
+    font-size: 20px; }
+  div .aboutMe {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center; }
+  section .splitMe {
+    display: inline-block;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center; }
+  .splitMe img {
+    max-height: 200px;
+    padding-top: 10%; }
+  div .meText {
+    display: inline-block;
+    text-align: left;
     width: 100%;
-    font-size: 16px; } }
+    vertical-align: top;
+    font-weight: bold; }
+    div .meText h2 {
+      font-size: 34px; }
+    div .meText h3 {
+      font-size: 18px; }
+  .para {
+    width: 90%;
+    font-size: 16px;
+    display: block; } }
 
 @media (max-width: 400px) and (min-width: 10px) {
   .theIcon img {
@@ -380,5 +418,5 @@ div .meText {
     div .meText h3 {
       font-size: 18px; }
   .para {
-    width: 95%;
+    width: 100%;
     font-size: 14px; } }
