@@ -180,6 +180,12 @@ ul {
   opacity: .5;
   font-size: 12px; }
 
+p .jobTitle2 {
+  font-style: italic;
+  margin: 0;
+  padding-top: -3%;
+  padding: 0; }
+
 .exp {
   display: block;
   width: 100%;
@@ -234,7 +240,8 @@ ul {
 .jobtitle {
   font-style: italic;
   margin: 0;
-  padding: 0 0 0 0; }
+  padding: 0 0 0 0;
+  display: block; }
 
 #closeGoco, #closeOoh, #closeEsd {
   opacity: .5;

@@ -119,6 +119,7 @@ p{
 	font-weight: 200;
 	display: inline-block;
 	opacity: .7;
+
 }
 .descrip{
 	width: 70%;
@@ -198,6 +199,13 @@ ul{
 	vertical-align: middle;
 	opacity: .5;
 	font-size: 12px;
+
+}
+p .jobTitle2 {
+	font-style: italic;
+	margin: 0;
+	padding-top:-3%;
+	padding: 0;
 }
 .exp{
 	display: block;
@@ -261,7 +269,9 @@ ul{
 	font-style: italic;
 	margin: 0;
 	padding: 0 0 0 0;
+	display: block;
 }
+
 #closeGoco, #closeOoh, #closeEsd{
 	opacity: .5;
 	font-style:italic;
