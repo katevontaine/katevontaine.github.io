@@ -31,7 +31,7 @@ footer{
 @keyframes type{
 	from{ width: 0;}
 }
-span{
+.blank{
 	animation: blink 1s infinite;
 }
 @keyframes blink{
@@ -295,7 +295,7 @@ div .meText{
 }
 .para{
 	width:85%;
-	font-size: 22px;
+	font-size: 18px;
 }
 ////////////////////////////////////////////
 

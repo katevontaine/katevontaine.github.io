@@ -28,7 +28,7 @@ footer {
   from {
     width: 0; } }
 
-span {
+.blank {
   animation: blink 1s infinite; }
 
 @keyframes blink {
@@ -268,7 +268,7 @@ div .meText {
 
 .para {
   width: 85%;
-  font-size: 22px; }
+  font-size: 18px; }
 
 @media (max-width: 1100px) and (min-width: 900px) {
   .theIcon img {
