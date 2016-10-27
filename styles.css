@@ -321,6 +321,8 @@ div .meText {
     padding-left: 1%; }
   .exp {
     padding-top: 12%; }
+    .exp .jobTitle2 {
+      display: none; }
   .exp h2, .comm h2, .edu h2 {
     font-size: 30px; }
   .descrip {
@@ -388,7 +390,11 @@ div .meText {
       font-size: 18px; }
   .para {
     width: 90%;
-    font-size: 16px;
+    font-size: 14px;
+    display: block; }
+  .para2 {
+    width: 90%;
+    font-size: 14px;
     display: block; } }
 
 @media (max-width: 400px) and (min-width: 10px) {
@@ -408,6 +414,8 @@ div .meText {
     padding-top: 15%; }
   .exp {
     padding-top: 20%; }
+    .exp .jobTitle2 {
+      display: none; }
   div .aboutMe {
     display: inline-block;
     margin: 0 auto;
@@ -429,7 +437,10 @@ div .meText {
     div .meText h2 {
       font-size: 34px; }
     div .meText h3 {
-      font-size: 18px; }
+      font-size: 15px; }
   .para {
-    width: 100%;
-    font-size: 14px; } }
+    width: 90%;
+    font-size: 12px; }
+  .para2 {
+    width: 90%;
+    font-size: 12px; } }

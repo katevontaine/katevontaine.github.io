@@ -387,6 +387,9 @@ div .meText{
 	}
 	.exp{
 		padding-top: 12%;
+		.jobTitle2{
+			display: none;
+		}
 	}
 	.exp h2, .comm h2, .edu h2{
 		font-size: 30px;
@@ -442,7 +445,7 @@ div .meText{
 }
 .exp{
 	padding-top: 12%;
-	.jobTitle2{
+.jobTitle2{
 		display: none;
 	}
 }
@@ -483,10 +486,14 @@ div .meText{
 }
 .para{
 	width:90%;
-	font-size: 16px;
+	font-size: 14px;
 	display: block;
 }
-
+.para2{
+	width:90%;
+	font-size: 14px;
+	display: block;
+}
 }
 
 
@@ -515,6 +522,9 @@ h3{
 }
 .exp{
 	padding-top: 20%;
+	.jobTitle2{
+		display: none;
+	}
 }
 
 div .aboutMe{
@@ -544,12 +554,16 @@ div .meText{
 		font-size: 34px;
 	}
 	h3{
-		font-size: 18px;
+		font-size: 15px;
 	}
 }
-.para{
-	width:100%;
-	font-size: 14px;
+ .para{
+	width:90%;
+	font-size: 12px;
+}
+.para2{
+	width:90%;
+	font-size: 12px;
 }
 
 }
