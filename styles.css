@@ -41,8 +41,7 @@ footer {
   margin: 0; }
 
 .socialLinks {
-  padding-left: 3px;
-  margin-left: 15px; }
+  padding-left: 3px; }
 
 .socialLinks img {
   max-height: 35px; }
@@ -98,7 +97,6 @@ h4 {
 .topCenter {
   margin: 0 auto;
   text-align: center;
-  padding-left: 30px;
   opacity: .8; }
 
 .bold {
@@ -150,8 +148,7 @@ li {
 a {
   text-decoration: none;
   display: inline;
-  text-decoration: none;
-  padding-left: 10px; }
+  text-decoration: none; }
 
 ul {
   text-decoration: none;
@@ -161,6 +158,9 @@ ul {
   padding: 0;
   display: inline;
   padding-left: 10px; }
+  ul p {
+    margin: 5px;
+    text-align: center; }
 
 .comm, .edu {
   display: inline-block;
@@ -253,6 +253,8 @@ div .aboutMe {
   display: inline-block;
   margin: 0 auto;
   text-align: center; }
+  div .aboutMe a:hover {
+    color: #BF8A37; }
 
 section .splitMe {
   display: inline-block;
@@ -356,6 +358,8 @@ div .meText {
     padding-left: 1%; }
   .exp {
     padding-top: 12%; }
+    .exp .jobTitle2 {
+      display: none; }
   .exp h2, .comm h2, .edu h2 {
     font-size: 30px; }
   .descrip {
@@ -388,6 +392,8 @@ div .meText {
     display: block; } }
 
 @media (max-width: 400px) and (min-width: 10px) {
+  ul li {
+    display: none; }
   .theIcon img {
     margin: 3% 0% 1% 0%;
     padding-top: 25%; }
